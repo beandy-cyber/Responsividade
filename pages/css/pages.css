@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700&family=Open+Sans:ital@0;1&display=swap');
 * {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -59,13 +58,15 @@ h2,
 
 .btn {
   display: inline-block;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 1.4rem;
-  background: #ad4d60;
+  background: #82404de5;
   padding: .8rem 3rem;
   border: .2rem solid #ff6483;
   border-radius: 5rem;
   cursor: pointer;
   font-size: 1.7rem;
+  width: 20rem;
 }
 
 .btn:hover {
@@ -151,6 +152,7 @@ header .search .fa-search:hover {
 
 .home .content p {
   font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(234, 234, 234);
   padding: .5rem 0;
 }
@@ -195,20 +197,19 @@ header .search .fa-search:hover {
 
 .about-top .box-container .heading .presentation {
   font-size: 1.9rem;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(225, 217, 217);
   padding-right: 1rem;
 }
 
 .about-top .box-container .heading .text {
   font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(208, 191, 191);
   padding: 1.5rem;
   text-align: justify;
 }
 
-.about-top .box-container .heading .btn {
-  background-color: #9d5e6b31;
-}
 
 .about-top .box-container .heading .btn a {
   color: rgb(225, 219, 219);
@@ -245,6 +246,7 @@ header .search .fa-search:hover {
 
 .transportation .infos p {
   font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(208, 191, 191);
   padding-top: 2rem;
 }

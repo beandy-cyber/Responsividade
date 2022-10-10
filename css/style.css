@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700&family=Open+Sans:ital@0;1&display=swap');
 * {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -92,6 +91,7 @@ section {
 
 .btn {
   display: inline-block;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 1rem;
   background: #ad4d60;
   color: rgb(225, 219, 219);
@@ -170,11 +170,12 @@ section {
 }
 
 .hotel .box-container .box .content .title a:hover {
-  text-decoration: 1rem solid #fff;
+  text-decoration-line: underline;
 }
 
 .hotel .box-container .box .content p {
   font-size: 1.7rem;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(208, 191, 191);
   padding: 1rem 0;
   line-height: 2.2rem;
