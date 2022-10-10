@@ -20,7 +20,7 @@ html {
 
 body {
   height: 200rem;
-  background-color: #121212;
+  background-color: #131516;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
   align-items: center;
   padding: 15px 100px;
   z-index: 10;
-  background: #121212;
+  background: #131516;
 }
 
 header .logo {
@@ -163,6 +163,14 @@ section {
 .hotel .box-container .box .content .title {
   font-size: 2.5rem;
   color: rgb(225, 219, 219);
+}
+
+.hotel .box-container .box .content .title a {
+  color: rgb(225, 219, 219);
+}
+
+.hotel .box-container .box .content .title a:hover {
+  text-decoration: 1rem solid #fff;
 }
 
 .hotel .box-container .box .content p {

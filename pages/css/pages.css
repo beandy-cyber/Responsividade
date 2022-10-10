@@ -20,7 +20,7 @@ html {
 
 body {
   height: 200rem;
-  background-color: #121212;
+  background-color: #131516;
 }
 
 section {
@@ -83,7 +83,7 @@ header {
   align-items: center;
   padding: 15px 100px;
   z-index: 10;
-  background: #121212;
+  background: #131516;
 }
 
 header .logo {
@@ -186,7 +186,11 @@ header .search .fa-search:hover {
   flex: 1 1 30rem;
   border-radius: .5rem;
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.about-top .box-container .heading .title {
+  text-align: justify;
 }
 
 .about-top .box-container .heading .presentation {
