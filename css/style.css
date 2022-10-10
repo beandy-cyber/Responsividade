@@ -153,6 +153,7 @@ section {
   object-fit: cover;
   margin-top: 3rem;
   border-radius: .3rem;
+  cursor: pointer;
 }
 
 .hotel .box-container .box .content {
