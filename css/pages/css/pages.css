@@ -51,7 +51,7 @@ h2,
 }
 
 .sub-title {
-  padding: 2rem;
+  padding: 2.5rem;
   font-size: 2rem;
   color: #ff6483;
   font-weight: 700;
@@ -60,7 +60,7 @@ h2,
 .btn {
   display: inline-block;
   margin-top: 1.4rem;
-  background: #a71532;
+  background: #ad4d60;
   padding: .8rem 3rem;
   border: .2rem solid #ff6483;
   border-radius: 5rem;
@@ -212,7 +212,7 @@ header .search .fa-search:hover {
 
 .about-top .box-container .heading i {
   font-size: 1.7rem;
-  color: #983347;
+  color: #c76377;
   padding-right: 1rem;
 }
 
@@ -247,7 +247,7 @@ header .search .fa-search:hover {
 
 .transportation .infos i {
   font-size: 1.7rem;
-  color: #983347;
+  color: #c76377;
   padding-right: 1rem;
 }
 
@@ -266,7 +266,7 @@ header .search .fa-search:hover {
   header .logo {
     padding-bottom: 20px;
   }
-
+  
   section {
     padding: 2rem;
   }

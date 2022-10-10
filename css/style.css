@@ -93,7 +93,7 @@ section {
 .btn {
   display: inline-block;
   margin-top: 1rem;
-  background: #a71532;
+  background: #ad4d60;
   color: rgb(225, 219, 219);
   padding: .8rem 3rem;
   border: .2rem solid #ff6483;
@@ -160,7 +160,7 @@ section {
 }
 
 .hotel .box-container .box .content .title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: rgb(225, 219, 219);
 }
 
@@ -173,7 +173,7 @@ section {
 
 .hotel .box-container .box .content .stars i {
   font-size: 1.7rem;
-  color: #dc143c;
+  color: #c76377;
 }
 
 .hotel .box-container .box .content .price,
