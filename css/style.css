@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700&family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Open+Sans:ital@0;1&display=swap');
+
 * {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -163,6 +164,7 @@ section {
 .hotel .box-container .box .content .title {
   font-size: 2.5rem;
   color: rgb(225, 219, 219);
+  font-weight: 700;
 }
 
 .hotel .box-container .box .content .title a {
@@ -183,12 +185,14 @@ section {
 
 .hotel .box-container .box .content .stars i {
   font-size: 1.7rem;
+  font-weight: 700;
   color: #c76377;
 }
 
 .hotel .box-container .box .content .price,
 .hotel .box-container .box .content .review {
   font-size: 2rem;
+  font-weight: 400;
   color: rgb(225, 219, 219);
   padding: 1rem;
   text-transform: capitalize;
