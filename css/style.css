@@ -110,7 +110,7 @@ section {
 }
 
 .home {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,7 +145,7 @@ section {
   display: flex;
   flex: 1 1 30rem;
   border-radius: .5rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
   margin-top: 5rem;
 }
 
