@@ -145,7 +145,7 @@ section {
   display: flex;
   flex: 1 1 30rem;
   border-radius: .5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
+  box-shadow: 0rem 0.5rem rgba(0, 0, 0, .1);
   margin-top: 5rem;
 }
 
@@ -191,7 +191,7 @@ section {
 
 .hotel .box-container .box .content .price,
 .hotel .box-container .box .content .review {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   color: rgb(225, 219, 219);
   padding: 1rem;
