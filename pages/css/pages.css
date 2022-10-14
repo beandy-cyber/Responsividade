@@ -175,17 +175,29 @@ header .search .fa-search:hover {
   gap: 2rem;
   margin: 1rem;
   margin-top: 1rem;
-  max-width: 100vh;
+  max-width: 110vh;
 }
 
 .about-top .box-container .box {
   flex: 1 1 30rem;
   border-radius: .5rem;
   overflow: hidden;
-  box-shadow: 0 1rem rgba(0, 0, 0, .1);
 }
 
-.about-top .box-container .heading .title {
+.about-top .box-container-2 {
+  gap: 2rem;
+  margin: 4rem;
+  margin-top: 6rem;
+  max-width: 50vh;
+}
+
+.about-top .box-container-2 .box-2 {
+  background-color: #1d2121;
+  border-radius: .5rem;
+}
+
+.about-top .box-container .heading .title ,
+.about-top .box-container-2 .heading .title {
   text-align: left;
   padding: 2rem;
   text-transform: uppercase;
@@ -198,7 +210,8 @@ header .search .fa-search:hover {
   padding-right: 1rem;
 }
 
-.about-top .box-container .heading .text {
+.about-top .box-container .heading .text ,
+.about-top .box-container-2 .heading .text {
   font-size: 2rem;
   font-family: 'Open Sans', sans-serif;
   color: rgb(208, 191, 191);
@@ -206,11 +219,7 @@ header .search .fa-search:hover {
   text-align: justify;
 }
 
-.about-top .box-container .heading .btn a {
-  color: rgb(225, 219, 219);
-}
-
-.about-top .box-container .heading i {
+.about-top .box-container-2 .heading i {
   font-size: 1.7rem;
   color: #c76377;
   padding-right: 1rem;
@@ -277,6 +286,16 @@ header .search .fa-search:hover {
 @media (max-width:800px) {
   .about-top {
       display: block;
+  }
+
+  .about-top .box-container {
+    max-width: 100vh;
+  }
+
+  .about-top .box-container-2 {
+    margin: 1rem;
+    margin-top: 2rem;
+    max-width: 100vh;
   }
 }
 
