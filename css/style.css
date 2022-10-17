@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap');
 
 * {
   font-family: 'Lato', sans-serif;
@@ -9,6 +9,7 @@
   border: none;
   text-decoration: none;
   transition: all .2s linear;
+  line-height: 200%;
 }
 
 html {
@@ -20,7 +21,7 @@ html {
 
 body {
   height: 200rem;
-  background-color: #131516;
+  background-color: #e3dada;
 }
 
 header {
@@ -33,18 +34,18 @@ header {
   align-items: center;
   padding: 15px 100px;
   z-index: 10;
-  background: #131516;
+  background: #e3dada;
 }
 
 header .logo {
   position: relative;
-  font-size: 3rem;
-  color: #fff;
+  font-size: 3.5rem;
+  color: #000;
   text-decoration: none;
 }
 
 header .logo:hover {
-  color: #dc143c;
+  color: #dd0c36;
 }
 
 header .search {
@@ -59,16 +60,17 @@ header .search input {
   left: 0;
   width: 100%;
   height: 100%;
-  color: #fff;
+  color: #000;
   background: transparent;
   outline: none;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   border-radius: 4px;
   padding: 0 10px 0 45px;
 }
 
 header .search input::placeholder {
-  color: #fff;
+  color: #000;
+  font-size: 1.8rem;
 }
 
 header .search .fa-search {
@@ -76,14 +78,15 @@ header .search .fa-search {
   top: 50%;
   transform: translateY(-50%);
   left: 10px;
-  color: #fff;
-  border-right: 1px solid #fff;
+  color: #000;
+  border-right: 1px solid #000;
   padding-right: 10px;
   cursor: pointer;
+  font-size: 1.8rem;
 }
 
 header .search .fa-search:hover {
-  color: #dc143c;
+  color: #dd0c36;
 }
 
 section {
@@ -92,21 +95,20 @@ section {
 
 .btn {
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
   margin-top: 1rem;
-  background: #ad4d60;
-  color: rgb(225, 219, 219);
-  padding: .8rem 3rem;
-  border: .2rem solid #ff6483;
+  background: #1a3b83;
+  color: #fff;
+  padding: .6rem 3rem;
+  border: .2rem solid #1a3b83;
   border-radius: 5rem;
   cursor: pointer;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   text-transform: capitalize;
 }
 
 .btn:hover {
   background: #9d5e6b31;
-  color: #983347;
+  color: #1a3b83;
 }
 
 .home {
@@ -127,7 +129,6 @@ section {
   font-size: 4.5rem;
   color: #fff;
   text-transform: uppercase;
-  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
 }
 
 .home .image-container img {
@@ -138,15 +139,17 @@ section {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: brightness(0.50);
+  filter: brightness(0.70);
+  background-color: #102a63;
 }
 
 .hotel .box-container .box {
   display: flex;
   flex: 1 1 30rem;
   border-radius: .5rem;
-  box-shadow: 0rem 0.5rem rgba(0, 0, 0, .1);
+  box-shadow: 0 .1rem .5rem .1rem rgba(0, 0, 0, .1);
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .hotel .box-container .box .image {
@@ -161,41 +164,30 @@ section {
   padding: 2rem;
 }
 
-.hotel .box-container .box .content .title {
-  font-size: 2.5rem;
-  color: rgb(225, 219, 219);
-  font-weight: 700;
-}
-
-.hotel .box-container .box .content .title a {
-  color: rgb(225, 219, 219);
-}
-
-.hotel .box-container .box .content .title a:hover {
-  text-decoration-line: underline;
-}
-
 .hotel .box-container .box .content p {
-  font-size: 1.7rem;
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(208, 191, 191);
+  font-size: 2rem;
+  text-align: left;
+  color: rgb(26, 21, 21);
   padding: 1rem 0;
   line-height: 2.2rem;
 }
 
-.hotel .box-container .box .content .stars i {
-  font-size: 1.7rem;
+.hotel .box-container .box .content .title {
+  font-size: 2.5rem;
+  color: #000;
   font-weight: 700;
-  color: #c76377;
 }
 
-.hotel .box-container .box .content .price,
+.hotel .box-container .box .content .stars i {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1a3b83;
+}
+
 .hotel .box-container .box .content .review {
   font-size: 1.8rem;
-  font-weight: 400;
-  color: rgb(225, 219, 219);
-  padding: 1rem;
-  text-transform: capitalize;
+  font-weight: 700;
+  color: #000;
 }
 
 @media (max-width:1200px) {
@@ -214,7 +206,7 @@ section {
 }
 
 @media (max-width:991px) {
-  header{
+  header {
     padding: 10px 20px;
     flex-direction: column;
   }
