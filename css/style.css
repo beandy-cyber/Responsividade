@@ -178,6 +178,18 @@ section {
   font-weight: 700;
 }
 
+.hotel .box-container .box .content .title a {
+  color: #000;
+}
+
+.hotel .box-container .box .content .title a:hover {
+  text-decoration-line: underline;
+}
+
+.hotel .box-container .box .content .btn a {
+  color: #fff;
+}
+
 .hotel .box-container .box .content .stars i {
   font-size: 1.6rem;
   font-weight: 700;
