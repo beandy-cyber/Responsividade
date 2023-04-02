@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="css\pages.css"> </head>
+	<script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
 
 <body>
 	<header> <a href="#" class="logo"><b>Traveller</b></a>
@@ -49,29 +51,19 @@
 			<div class="map-top">
 				<p class="title">Localização do hotel</p></div>
 				
-			<script>
-				const encuentrame = () => {
-					
-			
-					const success = (position) => {
-						const divCoordenadas = document.getElementById("coordenadas");
-						const divMapa = document.getElementById("mapa");
-						console.log(position);
-						const { latitude , longitude } = position.coords;
-						console.log(latitude, longitude);
-			
-						divCordenadas.inner.HTML = `lat: ${latitude}, lng: ${longitude}`;
-						
-						const mapa = new Image();
-						mapa.src = `https://www.mapquestapi.com/staticmap/v4/getmap?size=600,500&type=map&pois=scenter,-23.51586,-46.62527|&zoom=20&center=-23.51586000000003,-46.62527&imagetype=JPEG&shapeformat=cmp6&shape=flhzk@j~w|wA??&key=Gp6eZQvgOjEPm9BqPLnPIojOvVH4hQXw`;
-						divMapa.appendChild(mapa);
-					};
-			
-					const errorPosition = (error) => {
-						const divCoordenadas = document.getElementById("coordenadas");
-						divCoordenadas.innerHTML = `Erro ao obter localização: <br> Error ${error.code}: ${error.message}`;
-					};
-			</script>
+				    <script type="text/javascript">
+				      window.onload = function() {
+					L.mapquest.key = 'jjMbt8lEtGNXVcun00nmmAiThmRZbqxs';
+
+					var map = L.mapquest.map('map', {
+					  center: [-23.515864, -46.625416],
+					  layers: L.mapquest.tileLayer('map'),
+					  zoom: 12
+					});
+
+					map.addControl(L.mapquest.control());
+				      }
+				    </script>
 			
 			<div class="infos">
         <br>
