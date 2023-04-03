@@ -247,18 +247,6 @@ header .search .fa-search:hover {
   padding-bottom: 5rem;
 }
 
-.transportation .map-top img {
-  height: 30rem;
-  width: 100%;
-  object-fit: cover;
-  border-radius: .3rem;
-}
-
-.transportation .map-top img:hover {
-  filter: brightness(0.30);
-  cursor: pointer;
-}
-
 .transportation .infos p {
   font-size: 1.8rem;
   font-family: 'Open Sans', sans-serif;
