@@ -3,11 +3,10 @@
 
 <head>
 	<title>Ibis Styles Sao Paulo Anhembi</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="css\pages.css"> </head>
-	<script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
-	<link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
 
 <body>
 	<header> <a href="#" class="logo"><b>Traveller</b></a>
@@ -50,20 +49,10 @@
 		<section class="transportation">
 			<div class="map-top">
 				<p class="title">Localização do hotel</p></div>
-				
-				    <script type="text/javascript">
-				      window.onload = function() {
-					L.mapquest.key = 'jjMbt8lEtGNXVcun00nmmAiThmRZbqxs';
-
-					var map = L.mapquest.map('map', {
-					  center: [-23.515864, -46.625416],
-					  layers: L.mapquest.tileLayer('map'),
-					  zoom: 12
-					});
-
-					map.addControl(L.mapquest.control());
-				      }
-				    </script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUF2uJZhh0-sWd4N7bzajGNooeyd2sdxs&callback=initMap&v=weekly"
+        			defer
+     			 	></script>
+				   
 			
 			<div class="infos">
         <br>
