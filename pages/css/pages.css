@@ -236,6 +236,18 @@ header .search .fa-search:hover {
   margin-right: 4rem;
 }
 
+
+.transportation .map-top {
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.transportation .map-top .title {
+  display: block;
+  padding-bottom: 5rem;
+}
+
 .transportation .infos p {
   font-size: 1.8rem;
   font-family: 'Open Sans', sans-serif;
