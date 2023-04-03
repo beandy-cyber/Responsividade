@@ -49,9 +49,8 @@
 		<section class="transportation">
 			<div class="map-top">
 				<p class="title">Localização do hotel</p></div>
-				<script src="https://maps.googleapis.com/maps/api/staticmap?center=-23.515864,-46.625416&zoom=12&size=400x400&maptype=terrain&key=AIzaSyAUF2uJZhh0-sWd4N7bzajGNooeyd2sdxs"
-        			defer
-     			 	></script>
+				<div id="map"></div>
+			
 				   
 			
 			<div class="infos">
@@ -64,6 +63,11 @@
 		</section>
 	</main>
 	<footer> </footer>
-</body>
 
+		<script async
+			src="https://maps.googleapis.com/maps/api/staticmap?center=-23.515864,-46.625416&zoom=12&size=400x400&maptype=terrain&key=AIzaSyAUF2uJZhh0-sWd4N7bzajGNooeyd2sdxs&callback=initMap"
+        		defer
+     		></script>
+	
+	</body>
 </html>
