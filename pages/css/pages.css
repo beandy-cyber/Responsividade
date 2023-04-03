@@ -262,6 +262,7 @@ header .search .fa-search:hover {
 
 #map {
   height: 100%;
+  width: 5rem;
 }
 
 @media (max-width:1200px) {
