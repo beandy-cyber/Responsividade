@@ -272,6 +272,10 @@ header .search .fa-search:hover {
   padding-right: 1rem;
 }
 
+#map {
+  height: 100%;
+}
+
 @media (max-width:1200px) {
   html {
     font-size: 55%;
