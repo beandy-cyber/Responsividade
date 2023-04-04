@@ -17,7 +17,7 @@ Para a elaboração da atividade, foquei em hoteís famosos na cidades de São P
 
 ![image](https://user-images.githubusercontent.com/81839782/229680352-cb222f85-abd6-4772-8ea2-fbe4ac7e905c.png)
 
-![image](https://user-images.githubusercontent.com/81839782/229680648-3c85dc44-0606-41b2-ba84-d1149f3eb803.png)
+![image](https://user-images.githubusercontent.com/81839782/229693503-b904c484-134f-4f21-91e3-cc9840eda72d.png)
 
 Já a segunda parte atividade, desenvolvendo a área hotel escolhido, não houve desenvolvimento aprofundado das funcionalidades próprias para PCDs, já que foi mais focado na inserção da API. A proposta desta área é trazer informações mais detalhadas do hotel em questão, havendo um resumo mais completo, algumas informações extras e um mapa junto de infos de contato do hotel.
 <br><br>A API escolhida foi a <b>API Maps Embed API</b> do Google Maps. Anteriormente a atividade, era usada a Maps Static API, porém optei por deixar essa opção de mapa mais dinâmica - interativa - sendo um Plus na atividade.
