@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+  font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
 
 * {
-  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,6 +35,7 @@ html {
 body {
   height: 200rem;
   background-color: #e9e9e9;
+  font-family: 'opendyslexic', Lato;
 }
 
 header {
@@ -39,6 +53,7 @@ header {
 
 header .logo {
   position: relative;
+  font-family: 'Lato', sans-serif;
   font-size: 3.5rem;
   color: #000;
   text-decoration: none;
@@ -93,22 +108,19 @@ section {
   padding: 2rem 9%;
 }
 
-.btn {
+.link {
   display: inline-block;
   margin-top: 1rem;
-  background: #1a3b83;
-  color: #fff;
-  padding: .6rem 3rem;
-  border: .2rem solid #1a3b83;
-  border-radius: 5rem;
+  margin-bottom: 1rem;
+  color: #1a3b83;
   cursor: pointer;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-transform: capitalize;
+  line-height: 2.2rem;
 }
 
-.btn:hover {
-  background: #9d5e6b31;
-  color: #1a3b83;
+.link:hover {
+  text-decoration-line: underline;
 }
 
 .home {
@@ -129,6 +141,7 @@ section {
   font-size: 4.5rem;
   color: #fff;
   text-transform: uppercase;
+  margin-top: 8rem;
 }
 
 .home .image-container img {
@@ -160,12 +173,16 @@ section {
   cursor: pointer;
 }
 
+.hotel .box-container .box .image:hover {
+  filter: brightness(0.80);
+}
+
 .hotel .box-container .box .content {
   padding: 2rem;
 }
 
 .hotel .box-container .box .content p {
-  font-size: 2rem;
+  font-size: 2.1rem;
   text-align: left;
   color: rgb(26, 21, 21);
   padding: 1rem 0;
@@ -178,27 +195,14 @@ section {
   font-weight: 700;
 }
 
-.hotel .box-container .box .content .title a {
-  color: #000;
-}
-
-.hotel .box-container .box .content .title a:hover {
-  text-decoration-line: underline;
-}
-
-.hotel .box-container .box .content .btn a {
-  color: #fff;
-}
-
 .hotel .box-container .box .content .stars i {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #1a3b83;
 }
 
 .hotel .box-container .box .content .review {
   font-size: 1.8rem;
-  font-weight: 700;
   color: #000;
 }
 
@@ -229,6 +233,10 @@ section {
 
   section {
     padding: 2rem;
+  }
+
+  .home .content h1 {
+    margin-top: 14rem;
   }
 }
 
