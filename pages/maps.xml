@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<reverse>
+  <location>
+    <latLng>
+      <lat>-23.51586</lat>
+      <lng>-46.625416</lng>
+    </latLng>
+  </location>
+  <options>
+    <thumbMaps>true</thumbMaps>
+  </options>
+  <includeNearestIntersection>true</includeNearestIntersection>
+  <includeRoadMetadata>true</includeRoadMetadata>
+</reverse>
 <response>
   <info>
     <statusCode>0</statusCode>
