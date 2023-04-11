@@ -47,6 +47,8 @@
               <lng>-46.62541</lng>
             </latLng>
           </displayLatLng>
+          <mapURL>
+            <![CDATA[https://www.mapquestapi.com/geocoding/v1/reverse?key=KEY&location=-23.515864%2C-46.625416&outFormat=xml&thumbMaps=true]]>
           <mapUrl/>
         </location>
       </locations>
