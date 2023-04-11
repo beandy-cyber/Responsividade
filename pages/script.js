@@ -8,22 +8,3 @@
   });
 
   L.mapquest.control().addTo(map);
-
-  ps.on("change", (e) => {
-    let zoom = 13;
-    if (e.result.type === "state") {
-      zoom = 12;
-    }
-
-    map.setView(e.result.latlng, zoom);
-
-    search.place(
-      {
-        category: "sic:581228F52",
-        sort: "nearby",
-        bbox: map.getBounds(),
-        pageSize: 20,
-      },
-  });
-
-};
