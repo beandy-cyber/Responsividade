@@ -6,5 +6,3 @@
     layers: baseLayer,
     zoom: 10,
   });
-
-  L.mapquest.control().addTo(map);
