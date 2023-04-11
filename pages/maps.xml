@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <info>
+    <statusCode>0</statusCode>
+    <copyright>
+      <text>© 2022 MapQuest, Inc.</text>
+      <imageUrl>http://api.mqcdn.com/res/mqlogo.gif</imageUrl>
+      <imageAltText>© 2022 MapQuest, Inc.</imageAltText>
+    </copyright>
+    <messages/>
+  </info>
+  <options>
+    <maxResults>1</maxResults>
+    <ignoreLatLngInput>false</ignoreLatLngInput>
+  </options>
+  <results>
+    <result>
+      <providedLocation>
+        <latLng>
+          <lat>-23.515864</lat>
+          <lng>-46.625416</lng>
+        </latLng>
+      </providedLocation>
+      <locations>
+        <location>
+          <adminArea6 type="Neighborhood">Santana</adminArea6>
+          <adminArea5 type="City">São Paulo</adminArea5>
+          <adminArea4 type="County"/>
+          <adminArea3 type="State">SP</adminArea3>
+          <adminArea1 type="Country">BR</adminArea1>
+          <street>1741 Avenida Cruzeiro do Sul</street>
+          <postalCode>02031-000</postalCode>
+          <geocodeQualityCode>P1AAA</geocodeQualityCode>
+          <geocodeQuality>POINT</geocodeQuality>
+          <dragPoint>false</dragPoint>
+          <sideOfStreet>R</sideOfStreet>
+          <linkId>0</linkId>
+          <unknownInput/>
+          <type>s</type>
+          <latLng>
+            <lat>-23.51586</lat>
+            <lng>-46.62527</lng>
+          </latLng>
+          <displayLatLng>
+            <latLng>
+              <lat>-23.51586</lat>
+              <lng>-46.62541</lng>
+            </latLng>
+          </displayLatLng>
+          <mapUrl/>
+        </location>
+      </locations>
+    </result>
+  </results>
+</response>
