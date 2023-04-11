@@ -25,6 +25,7 @@ body {
 }
 
 .btn {
+  color: #fff;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   margin-top: 1.4rem;
