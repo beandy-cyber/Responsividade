@@ -9,6 +9,7 @@
   text-decoration: none;
   transition: all .2s linear;
   line-height: 200%;
+  color: #ffffff;
 }
 
 html {
@@ -177,7 +178,6 @@ section {
 }
 
 .hotel .box-container .content .btn {
-  color: #fff;
   display: inline-block;
   margin-top: 1.4rem;
   background: #1a3b83ed;
