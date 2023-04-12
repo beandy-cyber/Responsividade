@@ -164,7 +164,7 @@ header .search .fa-search:hover {
   height: 90%;
   width: 100%;
   object-fit: cover;
-  filter: brightness(0.30);
+  filter: brightness(0.45);
 }
 
 .about-top {
