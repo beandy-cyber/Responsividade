@@ -177,7 +177,7 @@ section {
   color: #000;
 }
 
-.hotel .box-container .box .content .btn {
+.hotel .box-container .content .btn {
   color: #fff;
   display: inline-block;
   margin-top: 1.4rem;
@@ -191,7 +191,7 @@ section {
   text-transform: capitalize;
 }
 
-.hotel .box-container .box .content .btn:hover {
+.hotel .box-container .content .btn:hover {
   background: #9d5e6b31;
   color: #1a3b83;
 }
