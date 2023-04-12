@@ -35,7 +35,7 @@ header {
   align-items: center;
   padding: 15px 100px;
   z-index: 10;
-  background: #1a3b83ed;
+  background: #1a3b83;
 }
 
 header .logo {
@@ -44,10 +44,6 @@ header .logo {
   font-size: 3.5rem;
   color: #000;
   text-decoration: none;
-}
-
-header .logo:hover {
-  color: #dd0c36;
 }
 
 header .search {
@@ -85,10 +81,6 @@ header .search .fa-search {
   padding-right: 10px;
   cursor: pointer;
   font-size: 1.8rem;
-}
-
-header .search .fa-search:hover {
-  color: #dd0c36;
 }
 
 section {
