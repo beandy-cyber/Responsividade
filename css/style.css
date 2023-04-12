@@ -192,8 +192,7 @@ section {
 }
 
 .hotel .box-container .content .btn:hover {
-  background: #9d5e6b31;
-  color: #1a3b83;
+  background: #50638d;
 }
 
 @media (max-width:1200px) {
