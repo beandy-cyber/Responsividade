@@ -9,7 +9,6 @@
   text-decoration: none;
   transition: all .2s linear;
   line-height: 200%;
-  color: #ffffff;
 }
 
 html {
@@ -179,6 +178,8 @@ section {
   font-size: 1.8rem;
   width: 20rem;
   text-transform: capitalize;
+    color: #ffffff;
+
 }
 
 .hotel .box-container .content .btn:hover {
