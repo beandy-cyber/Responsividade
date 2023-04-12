@@ -78,7 +78,7 @@ header {
   align-items: center;
   padding: 15px 100px;
   z-index: 10;
-  background: #1a3b83;
+  background: #061E50;
 }
 
 header .logo {
@@ -86,10 +86,6 @@ header .logo {
   font-size: 3rem;
   color: #fff;
   text-decoration: none;
-}
-
-header .logo:hover {
-  color: #dd0c36;
 }
 
 header .search {
@@ -121,7 +117,7 @@ header .search .fa-search {
   top: 50%;
   transform: translateY(-50%);
   left: 10px;
-  color: #000;
+  color: #fff;
   border-right: 1px solid #fff;
   padding-right: 10px;
   cursor: pointer;
